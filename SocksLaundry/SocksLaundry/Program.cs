@@ -1,4 +1,5 @@
 ﻿using System;
+using SocksLaundryLib;
 
 namespace SocksLaundry
 {
@@ -6,7 +7,8 @@ namespace SocksLaundry
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("SocksLaundry");
+            ClassLib basket = new ClassLib();
+            Console.WriteLine("There are {0} pairs of socks in the laundry");
         }
     }
 }
